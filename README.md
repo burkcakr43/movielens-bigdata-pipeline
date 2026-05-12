@@ -40,10 +40,10 @@ movielens-bigdata-pipeline/
 │   ├── producer.py
 │   ├── Dockerfile
 │   └── requirements.txt
-└── notebooks/
-├── 03_spark_okuma.ipynb
-└── 06_modeller.ipynb
-
+├── notebooks/
+│   ├── 03_spark_okuma.ipynb
+│   └── 06_modeller.ipynb
+└── screenshots/
 
 ## Veri Seti
 MovieLens 25M - https://grouplens.org/datasets/movielens/25m/
@@ -59,3 +59,26 @@ MovieLens 25M - https://grouplens.org/datasets/movielens/25m/
 | Random Forest | 0.8797 | 0.6774 | 0.3090 |
 | GBT | 0.8549 | 0.6543 | 0.3475 |
 | GLR | 0.8538 | 0.6538 | 0.3492 |
+
+## Görseller
+
+### Rating Dağılımı
+![Rating Dağılımı](screenshots/rating_dagilimi.png)
+
+### En Çok Rating Alan 10 Film
+![Top 10 Film](screenshots/top10_film.png)
+
+### Tür Dağılımı
+![Tür Dağılımı](screenshots/tur_dagilimi.png)
+
+### Yıllara Göre Trend
+![Yıllık Trend](screenshots/yillik_trend.png)
+
+### Model Karşılaştırma
+![Model Karşılaştırma](screenshots/model_karsilastirma.png)
+
+### Gerçek vs Tahmin
+![Gerçek vs Tahmin](screenshots/gercek_vs_tahmin.png)
+
+### Residual Dağılımı
+![Residual](screenshots/residual.png)
